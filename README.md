@@ -72,9 +72,12 @@ The major dependencies to run the code and obtain plots are
 <td>
 <ul>
   <li>numpy</li>
+  <li>pandas</li>
+  <li>sklearn</li>
+  <li>statsmodels</li>
   <li>seaborn</li>
   <li>matplotlib</li>
-  <li>pandas</li>
+  <li>adjustText</li>
 </ul>
 </td>
 </tr>
@@ -124,7 +127,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 # Contact
-
+Hao Liu - hfl5376@psu.edu
 Saipraneeth Devunuri - [@praneethDevunu1](https://twitter.com/praneethDevunu1) - sd37@illinois.edu
 
 Project Link: [https://github.com/UTEL-UIUC/Ridesharing-Scale-Effects](https://github.com/UTEL-UIUC/Ridesharing-Scale-Effects)
