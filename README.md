@@ -54,7 +54,7 @@
 
 Ridesplitting -- a type of ride-hailing in which riders share vehicles with other riders -- has become a common travel mode in some major cities. This type of shared ride option is currently provided by transportation network companies (TNCs) such as Uber, Lyft, and Via and has attracted increasing numbers of users, particularly before the COVID-19 pandemic. Previous findings have suggested ridesplitting can lower travel costs and even lessen congestion by reducing the number of vehicles needed to move people. Recent studies have also posited that ridesplitting should experience positive feedback mechanisms in which the quality of the service would improve with the number of users. Specifically, these systems should benefit from economies of scale and increasing returns to scale. This paper demonstrates evidence of their existence using trip data reported by TNCs to the City of Chicago between January and September 2019. Specifically, it shows that increases in the number of riders requesting or authorizing shared trips during a given time period is associated with shorter trip detours, higher rates of riders being matched together, lower costs relative to non-shared trips, and higher willingness for riders to share trips.
 
-This repository consists of the necessary code needed to replicate the figures and tables in our paper `Scale Effects in Ridesplitting: A Case Study of the City of Chicago`. The preprint of the paper is available on [arXiv](https://arxiv.org/abs/2303.03574). The ridesharing data used in the paper is obtained from [Chicago Data portal](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p). The processed data for the year 2019 is available on [Harvard Dataverse](https://doi.org/10.7910/DVN/SFBIVU).
+This repository consists of the necessary code needed to replicate the figures and tables in our paper `Scale Effects in Ridesplitting: A Case Study of the City of Chicago`. The preprint of the paper is available on [arXiv](https://arxiv.org/abs/2303.03574). The ridesharing data used in the paper is obtained from [Chicago Data portal](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p). The processed data for the year 2019 is available on [Harvard Dataverse]( https://doi.org/10.7910/DVN/GZMBJG).
 
  
 
@@ -62,9 +62,11 @@ This repository consists of the necessary code needed to replicate the figures a
 
 <!-- USAGE EXAMPLES -->
 # Usage
+ The code to replicate the paper is split in two parts - R and. The detour plots in the paper are made in R and the R code is available in the file `Detour_plots.R`. The rest of the plots are developed in python and the code is available in `analysis.py` and `code.py`. The `example.ipynb` provides examples to use the code and obtain the plots.
 
-## Prerequisites
-The major dependencies to run the code and obtain plots are  
+ NOTE: Download the necessary data from [Harvard Dataverse]( https://doi.org/10.7910/DVN/GZMBJG) to be able to run R and python code provided in the repository.
+## Python Prerequisites
+The dependencies to run the code and obtain plots are  
 <table>
 <tr>
 </tr>
@@ -82,8 +84,6 @@ The major dependencies to run the code and obtain plots are
 </td>
 </tr>
 </table>
-
-
 
 
 <!-- LICENSE -->
@@ -127,8 +127,8 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 # Contact
-Hao Liu - hfl5376@psu.edu
-Saipraneeth Devunuri - [@praneethDevunu1](https://twitter.com/praneethDevunu1) - sd37@illinois.edu
+Hao Liu - hfl5376@psu.edu |
+Saipraneeth Devunuri - sd37@illinois.edu
 
 Project Link: [https://github.com/UTEL-UIUC/Ridesharing-Scale-Effects](https://github.com/UTEL-UIUC/Ridesharing-Scale-Effects)
 <p align="right">(<a href="#top">back to top</a>)</p>

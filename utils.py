@@ -17,7 +17,7 @@ matplotlib.rcParams.update(
         "axes.labelsize":14,
         "xtick.labelsize":10,
         "ytick.labelsize":10,
-        "figure.dpi":120,
+        "figure.dpi":200,
         "savefig.dpi":300,
         "figure.figsize":(8,6),
         "lines.linewidth":1.5
