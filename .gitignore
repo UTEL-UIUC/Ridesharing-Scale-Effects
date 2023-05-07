@@ -128,7 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#custom
-processed_data/
-.vscode/
+## Custom
+processed_data/*
 *.zip
+.vscode/

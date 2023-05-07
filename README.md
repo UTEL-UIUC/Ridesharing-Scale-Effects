@@ -54,7 +54,7 @@
 
 Ridesplitting -- a type of ride-hailing in which riders share vehicles with other riders -- has become a common travel mode in some major cities. This type of shared ride option is currently provided by transportation network companies (TNCs) such as Uber, Lyft, and Via and has attracted increasing numbers of users, particularly before the COVID-19 pandemic. Previous findings have suggested ridesplitting can lower travel costs and even lessen congestion by reducing the number of vehicles needed to move people. Recent studies have also posited that ridesplitting should experience positive feedback mechanisms in which the quality of the service would improve with the number of users. Specifically, these systems should benefit from economies of scale and increasing returns to scale. This paper demonstrates evidence of their existence using trip data reported by TNCs to the City of Chicago between January and September 2019. Specifically, it shows that increases in the number of riders requesting or authorizing shared trips during a given time period is associated with shorter trip detours, higher rates of riders being matched together, lower costs relative to non-shared trips, and higher willingness for riders to share trips.
 
-This repository consists of the necessary code needed to replicate the figures and tables in our paper `Scale Effects in Ridesplitting: A Case Study of the City of Chicago`. The preprint of the paper is available on [arXiv](https://arxiv.org/abs/2303.03574). The ridesharing data used in the paper is obtained from [Chicago Data portal](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p). The processed data for the year 2019 is available on [Harvard Dataverse]( https://doi.org/10.7910/DVN/GZMBJG).
+This repository consists of the necessary code needed to replicate the figures and tables in our paper `Scale Effects in Ridesplitting: A Case Study of the City of Chicago`. The paper is available on [Transportation Research - Part A](http://dx.doi.org/10.1016/j.tra.2023.103690). The ridesharing data used in the paper is obtained from [Chicago Data portal](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p). The processed data for the year 2019 is available on [Harvard Dataverse]( https://doi.org/10.7910/DVN/GZMBJG).
 
  
 
@@ -97,13 +97,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 If you use code or paper in your research please use the following BibTeX entry to cite us:
 
 ```bibtex
-@misc{liu2023scale,
-      title={Scale Effects in Ridesplitting: A Case Study of the City of Chicago}, 
-      author={Hao Liu and Saipraneeth Devunuri and Lewis Lehe and Vikash V. Gayah},
-      year={2023},
-      eprint={2303.03574},
-      archivePrefix={arXiv},
-      primaryClass={stat.AP}
+@article{LIU2023103690,
+  title = {Scale effects in ridesplitting: A case study of the City of Chicago},
+  journal = {Transportation Research Part A: Policy and Practice},
+  volume = {173},
+  pages = {103690},
+  year = {2023},
+  issn = {0965-8564},
+  doi = {https://doi.org/10.1016/j.tra.2023.103690},
+  url = {https://www.sciencedirect.com/science/article/pii/S0965856423001106},
+  author = {Hao Liu and Saipraneeth Devunuri and Lewis Lehe and Vikash V. Gayah},
+  keywords = {Ridesplitting, Transportation Network Company (TNC), Scale effects, Empirical study, Willingness-to-share}
 }
 ```
 
